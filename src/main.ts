@@ -3,7 +3,7 @@ import { AppModule } from './app.module'
 
 const start = async () => {
   try {
-    const PORT = process.env.API_HOST || 5000
+    const PORT = process.env.MONGO_URI || 3000
     const app = await NestFactory.create(AppModule)
     app.enableCors()
     await app.listen(PORT, () => console.log(`Server started on PORT ${PORT}`))
