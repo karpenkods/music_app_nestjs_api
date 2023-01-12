@@ -1,7 +1,7 @@
 {
     "version": 2,
     "env": {
-        "SERVER_URL": "@shop_api_mongo_uri"
+        "SERVER_URL": "mongodb+srv://karpenkods:admin@cluster-music.mrupd0z.mongodb.net/?retryWrites=true&w=majority"
     },
     "builds": [
         {
