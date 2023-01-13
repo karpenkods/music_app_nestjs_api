@@ -1,7 +1,9 @@
 {
     "version": 2,
     "env": {
-        "SERVER_URL": "mongodb+srv://karpenkods:admin@cluster-music.mrupd0z.mongodb.net/?retryWrites=true&w=majority"
+        "SERVER_URL": "mongodb+srv://karpenkods:admin@cluster-music.mrupd0z.mongodb.net/?retryWrites=true&w=majority",
+        "DATABASE_NAME": "music-platform",
+        "PORT": "5000"
     },
     "builds": [
         {
